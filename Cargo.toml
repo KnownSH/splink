@@ -1,0 +1,15 @@
+[package]
+name = "spacebot"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+poise = "0.6.1"
+async-std = "1.13.0"
+tokio = { version = "1.41.0", features = ["rt-multi-thread"] }
+serde = { version = "1.0.214", features = ["derive"] }
+reqwest = "0.12.9"
+scraper = "0.21.0"
+chrono = "0.4.38"
+
+
